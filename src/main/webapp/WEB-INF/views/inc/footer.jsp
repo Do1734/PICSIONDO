@@ -60,7 +60,7 @@
 			function connect(){
 			 	 /* wsocket = new WebSocket("ws://www.picsion.site/picsion/message.ps") */ //ec2등록 용도  
 			 	
-			 	 wsocket = new WebSocket("ws://192.168.0.23:8090/picsion/message.ps")  //테스트 용도  
+			 	 wsocket = new WebSocket("ws://localhost:8090/picsion/message.ps")  //테스트 용도  
 
 			 	wsocket.onopen = onOpen
 			 	wsocket.onmessage = onMessage

@@ -65,7 +65,6 @@
   		if(result =="F"){
   			alert('연동된 계정이 없습니다')
   			var y = confirm("연동 하시겠나이까")
-  			console.log(y)
   		  	<%session.removeAttribute("result");%>
   		}
 	}, 1000);
