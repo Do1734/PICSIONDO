@@ -9,7 +9,8 @@ import kr.or.picsion.blame.dto.Blame;
  * @package kr.or.picsion.blame.dao 
  * @className BlameDao
  * @date 2018. 6. 4.
- */
+ */ 
+
 
 public interface BlameDao {
 
